@@ -5,10 +5,10 @@ import "dotenv/config";
 // Step 2
 import connectDB from "./config/mongodb.js";
 import connectCloudinary from "./config/cloudinary.js";
-import userRouter from "./routes/userRouter.js";
-import productRouter from "./routes/productRouter.js";
-import cartRouter from "./routes/cartRouter.js";
-import orderRouter from "./routes/orderRouter.js";
+import userRouter from "./routes/userRoute.js";
+import productRouter from "./routes/productRoute.js";
+import cartRouter from "./routes/cartRoute.js";
+import orderRouter from "./routes/orderRoute.js";
 // App Config
 const app = express();
 const port = process.env.PORT || 4000;
